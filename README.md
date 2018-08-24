@@ -19,6 +19,10 @@ The output contains:
 - acc_res: the accuracy of residuals
 - acc_stl: the overall accuracy
 
+To run HTCA, packages numpy, pandas, sklearn, and random need to be installed. And tca.py and tools.py should be imported.
+
+To tun HJDA, scipy is further required to save and read '.mat' data. And MATLAB engine for Python is required as well. 
+
 # Tools
 *tools.py* is written by Mengyuan Su for calling the functions that are used both in HJDA and HTCA. 
 
